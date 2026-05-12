@@ -26,7 +26,7 @@ On the right of every figure is a set of plot "tools" that provide the user with
 
 #  Application Features/Details
 
-[put image here]
+![Layout](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/Layout.JPG?raw=true)
 
 ## Map View
 
