@@ -9,4 +9,4 @@ This application allows Region staff to generate standalone cross section applic
 
 [Detailed Usage](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/Detailed_Usage.md) : Detailed documentation of application usage.
  
-[DataSources](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/DataSources.md) : Documentation regarding underlying data sources.
+[Data Sources](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/DataSources.md) : Documentation regarding underlying data sources.
