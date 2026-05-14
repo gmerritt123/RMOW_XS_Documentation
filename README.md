@@ -3,6 +3,8 @@
 # Region of Waterloo Cross Section Tool Generator
 This application allows Region of Waterloo staff to generate standalone cross-section tools for an arbitrary area of interest, displaying borehole lithology, water levels, geologic picks, and  hydrostratigraphic layers present in the Moraine or Cambridge groundwater flow models.
 
+![Layout](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/XS_Gif.gif?raw=true)
+
 ## Documentation
 
 [Overview and Quickstart](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/Overview_and_Quickstart.md) : Documentation on how to navigate the landing page and generate a custom cross-section tool for your area of interest.
