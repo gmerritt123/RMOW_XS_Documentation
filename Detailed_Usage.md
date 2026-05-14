@@ -5,6 +5,8 @@ This section provides details on usage of the cross section application itself, 
 ### General Workflow 
 Users can navigate in the Plan View map to an area of interest. Users can draw a cross-section by clicking to add line segments, and a cross section will appear below the map in the Cross-Section View. Users can make changes to the view or inspect details on the Map or Cross-Section Views using the surrounding widgets.
 
+![Gif](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/XS_Gif.gif?raw=true)
+
 There are three primary views (Plan View map, Cross-Section View, and Borehole View). Each has built in “Tools” located on the right, which are described below.  
 
 ## Figure Tools
