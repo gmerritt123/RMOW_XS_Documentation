@@ -1,16 +1,16 @@
 <div style="font-weight: bold;">Built by<img style="width:200px; text-align:left; margin: 0px 0px 0px 0px;" src="https://i.imgur.com/fACuCVR.jpeg" /> <br> in collaboration with <img src="https://www.regionofwaterloo.ca/media/4z3ggnnp/region-of-waterloo-logo.svg" align="middle"/>
  
 # Region of Waterloo Cross Section Tool Generator
-This application allows Region staff to generate standalone cross section applications for an arbitrary area of interest, using either the Moraine or Cambridge geomodels (see data sources section for more information).
+This application allows Region of Waterloo staff to generate standalone cross-section tools for an arbitrary area of interest, displaying borehole lithology, water levels, geologic picks, and  hydrostratigraphic layers present in the Moraine or Cambridge groundwater flow models (see [Data Sources](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/DataSources.md) for more information).
 ## Overview and Quickstart
-After successful login, a map is shown of the Region of Waterloo, with the Moraine and Cambridge model domains outlined.
+After successful login, a map of the Region of Waterloo is displayed with lines illustrating the Moraine and Cambridge Model domains, and an Ontario Geological Survey bedrock geology subcrop map for reference.
 
-The user then draws an area of interest on the map using the WheelZoom + PolyDraw/PolyEdit tools (See Figure Tools section below for usage) and selects which model to build from (i.e. Cambridge model vs Moraine Model) using the toggle button located above the map. In general, one should build from the Cambridge model when the area of interest is within the Cambridge model domain, where bedrock layers are more relevant, and otherwise build from the Moraine model. See data sources section for more information.
+Users first use the WheelZoom, or BoxZoom to navigate to an area of interest i.e. a region where they would like to generate a cross section tool. Users then draw an area of interest by clicking and holding to start, clicking to add vertices, then click and hold to finish the polygon. Users can modify the polygon using the PolyDraw/PolyEdit tools (see [Detailed Usage](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/Detailed_Usage.md) for more information). Users then selects which hydrostratigraphic model to display on the cross section tool - the Cambridge Model or the Moraine Model, using the toggle button located above the plan view map. Users should choose the Cambridge Model when the area of interest lies in the Cambridge Model domain, and the Moraine Model for areas of interest outside the Cambridge Model (including Branchton Meadows). See [Data Sources](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/DataSources.md) for more information.
 
-Once an area of interest polygon has been drawn, the user can request a cross section tool for that area by clicking the green "Generate XS Tool" button below the map to send a request to server. A text status will update to the right of the figure denoting the progress of the request: by far the largest bottleneck is the delivery of the prepared html which will likely take 20-30 seconds, as the server is uploading and your browser is downloading a ~35 mb standalone html application.
-
-A note on resolution: This application has been tuned to "auto-scale" the layer resolution of the requested subdomain such that the delivered application is 30 to 40 mb in size. A smaller subdomain will thus result in a higher delivered raster resolution (e.g. 5 m) while a large subdomain will result in a lower one.
+Once an area of interest polygon has been drawn, users can generate a cross section tool for that area by clicking the green "Generate XS Tool" button below the map to send a request to server. A text status will update beneath the map denoting the progress of the request: the tool will take up to 2 minutes to generate. 
 
 **IMPORTANT:** Popups must be allowed/enabled for the cross section generation website, as the delivered html needs to open in a new tab.
 
-Once an application generated, refer to Detailed_Usage.md for using the application.
+The cross section application will "auto-scale" the layer resolution based on the area of the cross section application; smaller cross section areas will have higher delivered rasters (e.g. 5 m) while large cross section areas will have lower resolution rasters.
+
+Once an application generated, it can be saved locally and kept in perpetuity. Refer to [Detailed Usage](https://github.com/gmerritt123/RMOW_XS_Documentation/blob/main/Detailed_Usage.md) for navigating the application itself.
